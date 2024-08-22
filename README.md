@@ -5,10 +5,10 @@
 </p>
 
 ### 📚 Descrição
-Projeto desenvolvido para fização de conteúdo, que simula uma página web para compra de pacotes de viagens.
+Projeto desenvolvido para fixação de conteúdo, que simula uma página web para compra de pacotes de viagens.
 
 ### 🎨 Layout
-<img src="">
+<img src="https://github.com/user-attachments/assets/cbf60894-c844-4202-8c17-cc7bc9c13ef9">
 
 ### ✔️ Tecnologias utilizadas
 - ``Visual Studio Code``
