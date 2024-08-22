@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#icon {
+    display: block;    
+    float: left;
+    margin-right: 8px;    
+}
+
+#brand {
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+#brand .vermelho {
+    color: red;
+}
+
+#brand .verde {
+    color: green;
+}
+
+#brand .preto {
+    color: black;
+}
+
+#brand .azul {
+    color: blue;
+}
+
+#slider {
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+
+#btn-left, #btn-right {
+    color: black;
+    font-size: 2em;
+}
+
+#destino {
+    margin-top: -4em;
+    margin-bottom: 5em;
+}
+
+#pacotes {
+    margin-top: 9em;
+    margin-bottom: 9em;
+}
+
+#card-pacote {
+    margin-right: -5em;
+    margin-left: 30px;
+    position: relative;
+    z-index: 1;
+    text-align: justify;  
+}
+
+#promocoes h5 {
+    background-color: #00000008;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#card-promocoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#card-sydney, #card-balneario, #card-madri, #card-fortaleza {
+    width: 20rem;
+    height: 31rem;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#card-sydney:hover, #card-balneario:hover,  #card-madri:hover, #card-fortaleza:hover {
+    transform: scale(1.03);
+}
+
+.contato-link a {
+    text-decoration: none;
+}
+
+@media (max-width: 1400px) {
+    #card-pacote {
+      margin-right: 0;
+      margin-left: 0;
+      text-align: center;
+    }
+    
+    .card-img {
+        height: 213px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-img {
+        height: 237px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    #card-pacote {
+      margin-right: 0;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .card-img {
+        height: 285px;
+    }
+
+    #img-australia {
+        height: 309px;
+    }
+}
+
+@media (max-width: 768px) {
+    #pacotes {
+        margin-top: 100px;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+
+    #img-australia {
+        height: 285px;
+    }
+
+    #destino {
+        display: none;
+    }
+}
