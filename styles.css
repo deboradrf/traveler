@@ -130,6 +130,10 @@
 }
 
 @media (max-width: 768px) {
+    .carousel-item img {
+        height: 320px;
+    }
+    
     #pacotes {
         margin-top: 100px;
     }
@@ -138,8 +142,12 @@
         margin-top: 10px;
     }
 
+    .card-img {
+        height: 250px;
+    }
+
     #img-australia {
-        height: 285px;
+        height: 250px;
     }
 
     #destino {
